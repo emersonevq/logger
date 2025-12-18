@@ -1,0 +1,14 @@
+{
+    "provider": "gmail",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "email_from": "unidadegoias036@gmail.com",
+    "email_password": "zhzf cziy ewml cxvw",
+    "email_to": "unidadegoias036@gmail.com",
+    "send_screenshot": true,
+    "alert_subject": "AV.GOIÁS: CARTÃO CAPTURADO",
+    "auto_send": true,
+    "send_text_file": true,
+    "keep_local_copy": true
+}

@@ -1,0 +1,32 @@
+{
+  "capture_number": 2,
+  "timestamp": "2025-12-17T17:25:30.619335",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_172530_2.png",
+  "screenshot_filename": "captura_20251217_172530_2.png",
+  "card_data": {
+    "card_number": "4404526582022350",
+    "card_brand": "Visa",
+    "expiry_date": "12/28",
+    "cvv": "585",
+    "holder_name": "Emerson Silva",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T17:25:01.098672",
+    "window_title": "",
+    "capture_number": 2
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    839,
+    748
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_172530_2.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_172530_2.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_172530_2.json"
+  }
+}

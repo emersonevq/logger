@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-17T18:14:16.795719",
+  "to": "unidadegoias036@gmail.com",
+  "subject": "Dados Capturados - #1",
+  "data_type": "COMPLETE",
+  "attachments": [
+    "captura_20251217_181411_1.png",
+    "captura_20251217_181411_1.txt"
+  ],
+  "card_data_summary": {
+    "holder_name": "Emerson Si",
+    "card_last4": "5266",
+    "expiry_date": "10/29",
+    "has_cvv": true,
+    "window_title": ""
+  }
+}

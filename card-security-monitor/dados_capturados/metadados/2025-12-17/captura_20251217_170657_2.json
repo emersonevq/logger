@@ -1,0 +1,32 @@
+{
+  "capture_number": 2,
+  "timestamp": "2025-12-17T17:06:58.037489",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_170657_2.png",
+  "screenshot_filename": "captura_20251217_170657_2.png",
+  "card_data": {
+    "card_number": "5446523565889785",
+    "card_brand": "Mastercard",
+    "expiry_date": "10/25",
+    "cvv": "223",
+    "holder_name": "Juliano Silvano Salles",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T17:03:51.621552",
+    "window_title": "",
+    "capture_number": 2
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    982,
+    705
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_170657_2.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_170657_2.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_170657_2.json"
+  }
+}

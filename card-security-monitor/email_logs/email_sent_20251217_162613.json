@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-17T16:26:13.762694",
+  "to": "unidadegoias036@gmail.com",
+  "subject": "Dados Capturados - #1",
+  "data_type": "COMPLETE",
+  "attachments": [
+    "captura_20251217_162608_1.png",
+    "captura_20251217_162608_1.txt"
+  ],
+  "card_data_summary": {
+    "holder_name": "Juliano Da",
+    "card_last4": "8564",
+    "expiry_date": "05/27",
+    "has_cvv": true,
+    "window_title": "Desconhecida"
+  }
+}

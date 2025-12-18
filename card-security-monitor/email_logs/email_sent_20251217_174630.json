@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-17T17:46:30.137492",
+  "to": "unidadegoias036@gmail.com",
+  "subject": "Dados Capturados - #2",
+  "data_type": "COMPLETE",
+  "attachments": [
+    "captura_20251217_174625_2.png",
+    "captura_20251217_174625_2.txt"
+  ],
+  "card_data_summary": {
+    "holder_name": "Jaqueline De Ribeiro Kar",
+    "card_last4": "8522",
+    "expiry_date": "03/26",
+    "has_cvv": true,
+    "window_title": ""
+  }
+}

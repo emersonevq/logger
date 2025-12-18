@@ -1,0 +1,33 @@
+{
+  "capture_number": 2,
+  "timestamp": "2025-12-17T18:09:12.134398",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_180911_2.png",
+  "screenshot_filename": "captura_20251217_180911_2.png",
+  "card_data": {
+    "card_number": "4401526658569965",
+    "card_brand": "Visa",
+    "expiry_date": "10/29",
+    "cvv": "556",
+    "holder_name": "Jenifer de",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T18:08:53.805177",
+    "window_title": "",
+    "capture_number": 2
+  },
+  "buffer_text": "\tjenifer de oliveira\t1029\t556",
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    919,
+    728
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_180911_2.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_180911_2.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_180911_2.json"
+  }
+}

@@ -1,0 +1,29 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 16:46:17
+ID da Captura: #1
+============================================================
+
+💳 NÚMERO DO CARTÃO: 5441 5658 9858 1031
+🏷️  BANDEIRA: Mastercard
+📅 VALIDADE: 11/27
+🔐 CÓDIGO DE SEGURANÇA (CVV): 640
+👤 TITULAR DO CARTÃO: Jujuba da
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_1.png
+  • Este arquivo: captura_1.txt
+  • Metadados: captura_1.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================

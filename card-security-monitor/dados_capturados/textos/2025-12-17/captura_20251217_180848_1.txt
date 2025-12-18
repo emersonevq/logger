@@ -1,0 +1,35 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 18:08:49
+ID da Captura: #1
+============================================================
+
+💳 NÚMERO DO CARTÃO: 5444 1566 8599 8555
+🏷️  BANDEIRA: Mastercard
+📅 VALIDADE: 10/25
+🔐 CÓDIGO DE SEGURANÇA (CVV): 256
+👤 TITULAR DO CARTÃO: Jessica de
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📝 CONTEXTO DO BUFFER (ÚLTIMOS 200 CARACTERES):
+============================================================
+	jessica de silva	1025	256
+============================================================
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_1.png
+  • Este arquivo: captura_1.txt
+  • Metadados: captura_1.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================

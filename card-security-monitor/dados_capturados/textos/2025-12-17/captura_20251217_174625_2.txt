@@ -1,0 +1,29 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 17:46:25
+ID da Captura: #2
+============================================================
+
+💳 NÚMERO DO CARTÃO: 4004 5256 8564 8522
+🏷️  BANDEIRA: Visa
+📅 VALIDADE: 03/26
+🔐 CÓDIGO DE SEGURANÇA (CVV): 280
+👤 TITULAR DO CARTÃO: Jaqueline de Ribeiro Kar
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_2.png
+  • Este arquivo: captura_2.txt
+  • Metadados: captura_2.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-17T17:10:11.677197",
+  "to": "unidadegoias036@gmail.com",
+  "subject": "Dados Capturados - #0",
+  "data_type": "COMPLETE",
+  "attachments": [
+    "captura_20251217_171005_3.png",
+    "captura_20251217_171005_3.txt"
+  ],
+  "card_data_summary": {
+    "holder_name": "Emerson Da Silva Souzaa",
+    "card_last4": "8555",
+    "expiry_date": "10/26",
+    "has_cvv": true,
+    "window_title": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "capture_number": 1,
+  "timestamp": "2025-12-17T17:36:40.922619",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_173640_1.png",
+  "screenshot_filename": "captura_20251217_173640_1.png",
+  "card_data": {
+    "card_number": "5446585598996544",
+    "card_brand": "Mastercard",
+    "expiry_date": "10/29",
+    "cvv": "556",
+    "holder_name": "Emerson Silv",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T17:36:04.569066",
+    "window_title": "",
+    "capture_number": 1
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    987,
+    715
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_173640_1.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_173640_1.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_173640_1.json"
+  }
+}

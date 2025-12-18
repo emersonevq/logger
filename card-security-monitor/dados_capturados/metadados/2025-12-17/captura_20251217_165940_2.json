@@ -1,0 +1,32 @@
+{
+  "capture_number": 2,
+  "timestamp": "2025-12-17T16:59:40.564985",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_165940_2.png",
+  "screenshot_filename": "captura_20251217_165940_2.png",
+  "card_data": {
+    "card_number": "5446582203301205",
+    "card_brand": "Mastercard",
+    "expiry_date": "10/25",
+    "cvv": "331",
+    "holder_name": "Marcos Marcinho De Silva",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T16:57:22.448263",
+    "window_title": "",
+    "capture_number": 2
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    1256,
+    673
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_165940_2.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_165940_2.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_165940_2.json"
+  }
+}

@@ -1,0 +1,29 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 17:41:25
+ID da Captura: #3
+============================================================
+
+💳 NÚMERO DO CARTÃO: 5448 8598 8516 5268
+🏷️  BANDEIRA: Mastercard
+📅 VALIDADE: 10/29
+🔐 CÓDIGO DE SEGURANÇA (CVV): 648
+👤 TITULAR DO CARTÃO: Marcos Raimundo de Braga
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_3.png
+  • Este arquivo: captura_3.txt
+  • Metadados: captura_3.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================

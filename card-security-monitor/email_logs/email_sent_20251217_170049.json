@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-17T17:00:49.702894",
+  "to": "unidadegoias036@gmail.com",
+  "subject": "Dados Capturados - #0",
+  "data_type": "COMPLETE",
+  "attachments": [
+    "captura_20251217_170044_3.png",
+    "captura_20251217_170044_3.txt"
+  ],
+  "card_data_summary": {
+    "holder_name": "Ricardo Torres De Souza",
+    "card_last4": "0888",
+    "expiry_date": "02/32",
+    "has_cvv": true,
+    "window_title": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "capture_number": 2,
+  "timestamp": "2025-12-17T17:46:25.644678",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_174625_2.png",
+  "screenshot_filename": "captura_20251217_174625_2.png",
+  "card_data": {
+    "card_number": "4004525685648522",
+    "card_brand": "Visa",
+    "expiry_date": "03/26",
+    "cvv": "280",
+    "holder_name": "Jaqueline De Ribeiro Kar",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T17:45:51.150685",
+    "window_title": "",
+    "capture_number": 2
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    1215,
+    730
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_174625_2.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_174625_2.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_174625_2.json"
+  }
+}

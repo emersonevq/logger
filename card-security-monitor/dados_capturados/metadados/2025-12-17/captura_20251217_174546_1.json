@@ -1,0 +1,32 @@
+{
+  "capture_number": 1,
+  "timestamp": "2025-12-17T17:45:46.697510",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_174546_1.png",
+  "screenshot_filename": "captura_20251217_174546_1.png",
+  "card_data": {
+    "card_number": "5466525585681002",
+    "card_brand": "Mastercard",
+    "expiry_date": "02/30",
+    "cvv": "320",
+    "holder_name": "Jaqueline De",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T17:45:15.919397",
+    "window_title": "",
+    "capture_number": 1
+  },
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    1161,
+    692
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_174546_1.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_174546_1.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_174546_1.json"
+  }
+}

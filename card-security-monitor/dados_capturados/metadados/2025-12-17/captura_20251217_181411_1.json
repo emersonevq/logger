@@ -1,0 +1,33 @@
+{
+  "capture_number": 1,
+  "timestamp": "2025-12-17T18:14:11.801754",
+  "screenshot_path": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_181411_1.png",
+  "screenshot_filename": "captura_20251217_181411_1.png",
+  "card_data": {
+    "card_number": "5446582265885266",
+    "card_brand": "Mastercard",
+    "expiry_date": "10/29",
+    "cvv": "554",
+    "holder_name": "Emerson Si",
+    "cpf": null,
+    "email": null,
+    "completeness": 80,
+    "detection_time": "2025-12-17T18:13:13.657361",
+    "window_title": "",
+    "capture_number": 1
+  },
+  "buffer_text": "\temerson silva e silva\t1029\t554",
+  "screen_size": [
+    1920,
+    1080
+  ],
+  "cursor_position": [
+    878,
+    699
+  ],
+  "file_locations": {
+    "screenshot": "dados_capturados\\screenshots\\2025-12-17\\captura_20251217_181411_1.png",
+    "text_file": "dados_capturados\\textos\\2025-12-17\\captura_20251217_181411_1.txt",
+    "metadata": "dados_capturados\\metadados\\2025-12-17\\captura_20251217_181411_1.json"
+  }
+}

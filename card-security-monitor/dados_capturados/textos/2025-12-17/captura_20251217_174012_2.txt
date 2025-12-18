@@ -1,0 +1,29 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 17:40:12
+ID da Captura: #2
+============================================================
+
+💳 NÚMERO DO CARTÃO: 4465 8599 8566 9810
+🏷️  BANDEIRA: Visa
+📅 VALIDADE: 01/27
+🔐 CÓDIGO DE SEGURANÇA (CVV): 774
+👤 TITULAR DO CARTÃO: Emerson da Silva Silva
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_2.png
+  • Este arquivo: captura_2.txt
+  • Metadados: captura_2.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================

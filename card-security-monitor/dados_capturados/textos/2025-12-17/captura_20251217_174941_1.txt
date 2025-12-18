@@ -1,0 +1,29 @@
+============================================================
+DADOS DE CARTÃO CAPTURADOS - DADOS COMPLETOS
+Data/Hora: 17/12/2025 17:49:41
+ID da Captura: #1
+============================================================
+
+💳 NÚMERO DO CARTÃO: 5444 5655 8599 8889
+🏷️  BANDEIRA: Mastercard
+📅 VALIDADE: 10/26
+🔐 CÓDIGO DE SEGURANÇA (CVV): 253
+👤 TITULAR DO CARTÃO: Marcinho de
+📊 COMPLETUDE DOS DADOS: 80%
+
+============================================================
+📋 ESTADO DA CAPTURA:
+  • Cartão: COMPLETO ✓
+  • Validade: COMPLETO ✓
+  • CVV: COMPLETO ✓
+  • Nome: COMPLETO ✓
+============================================================
+
+📁 ARQUIVOS GERADOS:
+  • Screenshot: captura_1.png
+  • Este arquivo: captura_1.txt
+  • Metadados: captura_1.json
+
+⚡ SISTEMA DE MONITORAMENTO EM TEMPO REAL
+⚠️  DADOS SENSÍVEIS - ARQUIVO DE LOG INTERNO
+============================================================
