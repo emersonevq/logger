@@ -42,7 +42,7 @@ from keyboard_monitor import KeyboardMonitor
 from pattern_detector import CardData
 from alert_window import AlertWindow
 from screenshot_capture import ScreenshotCapture
-from autostart import AutoStartManager
+from autostart_manager import AutoStartManager
 from email_sender import EmailSender
 from PIL import Image
 
