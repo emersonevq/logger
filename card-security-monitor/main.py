@@ -16,6 +16,27 @@ else:
     # Rodando como script Python
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # ============================================================
+
+# ============================================================
+# PROTEÇÃO: Evita múltiplas instâncias rodando
+# ============================================================
+try:
+    import msvcrt
+    import tempfile
+
+    lock_file = os.path.join(tempfile.gettempdir(), "WindowsSecurity.lock")
+    try:
+        # Tenta abrir arquivo exclusivamente
+        lock_handle = os.open(lock_file, os.O_EXCL | os.O_CREAT | os.O_WRONLY)
+        os.close(lock_handle)
+    except OSError:
+        # Já existe - outra instância está rodando
+        print("⚠️ WindowsSecurity já está rodando!")
+        sys.exit(0)
+except:
+    pass
+# ============================================================
+
 import time
 import threading
 import tkinter as tk
