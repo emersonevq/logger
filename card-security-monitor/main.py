@@ -3,8 +3,19 @@ Windows Security Service - Interface Stealth
 Monitoramento permanente - sem opção de pausar
 """
 
-import sys
 import os
+import sys
+
+# ============================================================
+# CRÍTICO: Configura diretório ANTES de qualquer outra coisa
+# ============================================================
+if getattr(sys, 'frozen', False):
+    # Rodando como .exe compilado
+    os.chdir(os.path.dirname(sys.executable))
+else:
+    # Rodando como script Python
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# ============================================================
 import time
 import threading
 import tkinter as tk
